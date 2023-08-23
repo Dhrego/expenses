@@ -5,7 +5,7 @@ import { useState } from "react";
 import ExpensesList from "./ExpensesList";
 
 const Expenses = (props) => {
-  const [selectedYear, setSelectedYear] = useState("2020");
+  const [selectedYear, setSelectedYear] = useState("2023");
 
   const getYear = (year) => {
     setSelectedYear(year);
